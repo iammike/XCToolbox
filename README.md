@@ -1,6 +1,5 @@
 # XCToolbox
 
-[![CI Status](https://img.shields.io/travis/Mike Collins/XCToolbox.svg?style=flat)](https://travis-ci.org/Mike Collins/XCToolbox)
 [![Version](https://img.shields.io/cocoapods/v/XCToolbox.svg?style=flat)](https://cocoapods.org/pods/XCToolbox)
 [![License](https://img.shields.io/cocoapods/l/XCToolbox.svg?style=flat)](https://cocoapods.org/pods/XCToolbox)
 [![Platform](https://img.shields.io/cocoapods/p/XCToolbox.svg?style=flat)](https://cocoapods.org/pods/XCToolbox)
