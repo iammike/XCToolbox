@@ -1,0 +1,16 @@
+PODS:
+  - XCToolbox (0.1.0)
+
+DEPENDENCIES:
+  - XCToolbox (from `../`)
+
+EXTERNAL SOURCES:
+  XCToolbox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XCToolbox: 0272c1185f215bcbc00bc056f2117a0d8b2056ea
+
+PODFILE CHECKSUM: 742db9510b519569e1ca0c4e3a40bff7dc742530
+
+COCOAPODS: 1.10.1

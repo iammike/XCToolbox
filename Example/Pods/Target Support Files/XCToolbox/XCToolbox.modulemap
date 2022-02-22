@@ -1,0 +1,6 @@
+framework module XCToolbox {
+  umbrella header "XCToolbox-umbrella.h"
+
+  export *
+  module * { export * }
+}
