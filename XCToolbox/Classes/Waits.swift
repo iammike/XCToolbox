@@ -5,7 +5,7 @@
 //  Created by Mike Collins on 2/21/22.
 //
 
-enum Waits: TimeInterval {
+public enum Waits: TimeInterval {
 	case short = 2.0
 	case medium = 5.0
 	case long = 10.0

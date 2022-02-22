@@ -5,7 +5,7 @@
 //  Created by Mike Collins on 2/21/22.
 //
 
-enum UIStatus: String {
+public enum UIStatus: String {
 	case exist = "exists == true"
 	case notExist = "exists == false"
 	case selected = "selected == true"

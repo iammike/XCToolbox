@@ -18,6 +18,7 @@ profile
 DerivedData
 *.hmap
 *.ipa
+Example/XCToolbox.xcworkspace/xcshareddata/
 
 # Bundler
 .bundle
