@@ -1,0 +1,6 @@
+use_frameworks!
+target 'XCToolbox_Tests' do
+  pod 'XCToolbox', :path => '../'
+  
+  
+end
