@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071C10E627C4914700C3D02B /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 071C10E527C4914700C3D02B /* Classes */; };
 		19D67C03AA18FDE11C7FAF73A4D77654 /* XCToolbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C20969151C8F0D4E22824EA72004DFE6 /* XCToolbox-dummy.m */; };
 		286E400BF7C18ADE40E4C1541DC2B521 /* Pods-XCToolbox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E291508C8307975370B8EFBD2725CEC3 /* Pods-XCToolbox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D9BF5D4386363BCC9BC7FABEC48C526 /* XCToolbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C59C154980E6B5121AC5DD4B7B60BC8 /* XCToolbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4999E80582DB2B12B5574E99796998A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8E3D39C49E5E9F83636E4A2B96FA133D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AED5F6CDFE98B6383F0781B2C281098 /* ReplaceMe.swift */; };
 		B7F96E94072A102487D2139D741E6C31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D02576CD72FCDA40993FE3BC40BAA0F6 /* Pods-XCToolbox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4984033D58E42DE7018A1AFAFB12DEA9 /* Pods-XCToolbox_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -27,10 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		071C10E527C4914700C3D02B /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = XCToolbox/Classes; sourceTree = "<group>"; };
 		097E6DFCD506F9D8D1FAECF169501B91 /* Pods-XCToolbox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCToolbox_Tests.modulemap"; sourceTree = "<group>"; };
 		48D58DD80015D8576C81C168366418F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4984033D58E42DE7018A1AFAFB12DEA9 /* Pods-XCToolbox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCToolbox_Tests-dummy.m"; sourceTree = "<group>"; };
-		4AED5F6CDFE98B6383F0781B2C281098 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = XCToolbox/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		56404E967657561EF63E7B8A6CF5B03C /* XCToolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCToolbox.release.xcconfig; sourceTree = "<group>"; };
 		610F211DB092E835505635DB2CE048FA /* Pods_XCToolbox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCToolbox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		666EB5F30ECCF782AE6702A9A5486B84 /* Pods-XCToolbox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCToolbox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		452CEE9A2BBEA977B999B2F62D7F77B2 /* XCToolbox */ = {
 			isa = PBXGroup;
 			children = (
-				4AED5F6CDFE98B6383F0781B2C281098 /* ReplaceMe.swift */,
+				071C10E527C4914700C3D02B /* Classes */,
 				8178F02CC964733ECBC17F7AB1CFDD39 /* Pod */,
 				49E3A6736B0C2AD44B853E8EA8266DB4 /* Support Files */,
 			);
@@ -245,6 +245,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					9713571C2B4F4EDFCA4613E201B2BA15 = {
+						LastSwiftMigration = 1300;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -277,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071C10E627C4914700C3D02B /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +293,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E3D39C49E5E9F83636E4A2B96FA133D /* ReplaceMe.swift in Sources */,
 				19D67C03AA18FDE11C7FAF73A4D77654 /* XCToolbox-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 56404E967657561EF63E7B8A6CF5B03C /* XCToolbox.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -507,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 970C5EA34DF994D3A31A724155050AF1 /* XCToolbox.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -526,6 +533,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

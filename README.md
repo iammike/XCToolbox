@@ -5,11 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/XCToolbox.svg?style=flat)](https://cocoapods.org/pods/XCToolbox)
 [![Platform](https://img.shields.io/cocoapods/p/XCToolbox.svg?style=flat)](https://cocoapods.org/pods/XCToolbox)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
+
+Xcode and iOS version >= 10.0
 
 ## Installation
 

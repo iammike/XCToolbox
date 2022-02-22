@@ -28,7 +28,7 @@ A collection of tools to enhance and improve your testing experience with XCUITe
   s.source           = { :git => 'https://github.com/Mike Collins/XCToolbox.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
   s.swift_versions = '4.0'
 
   s.source_files = 'XCToolbox/Classes/**/*'
