@@ -82,6 +82,7 @@ Note: `firstMatch` is provided by XCTest
 ## Author
 
 Mike Collins, mike@iammike.org
+Others - Not all original code, but generally modified and improved
 
 ## License
 
