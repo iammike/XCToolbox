@@ -13,7 +13,11 @@ extension XCUIElement {
 	
 	// Taps the 0,0 screen cooridnate of an element, regardless of what may exist above it
 	public func forceTap() {
-		self.coordinate(withNormalizedOffset: CGVector(dx: 0.0, dy: 0.0)).tap()
+		coordinate(withNormalizedOffset: CGVector(dx: 0.0, dy: 0.0)).tap()
+	}
+	
+	public func tapIfExists() {
+		if exists { tap() }
 	}
 	
 	// Taps the current element until a specified element is hittable.
