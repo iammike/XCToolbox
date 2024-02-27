@@ -19,6 +19,8 @@ DerivedData
 *.hmap
 *.ipa
 Example/XCToolbox.xcworkspace/xcshareddata/
+Example/Pods/Pods.xcodeproj/project.xcworkspace/
+
 
 # Bundler
 .bundle

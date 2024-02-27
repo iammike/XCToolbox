@@ -67,8 +67,8 @@ Usage: `someLoadingData.waitForExistence(timeout: Waits.long.rawValue)`
 `pasteInto(toPaste: String)` Reliably uses the Pasteboard to copy text into an element  
 `waitForDisappearance(timeout: TimeInterval) -> Bool` Waits for an element to disappear  
 `waitForHittable(timeout: TimeInterval) -> Bool` Waits for an element to be hittable  
-`waitForSwitchValue(expectation: Bool, timeout: Int) -> Bool` Waits for a switch to change value (can be useful if you navigate away immediately after tapping it)  
-`waitForValueToNotContain(this: String, timeout: Int)` Waits for a value to no longer contain a string  
+`waitForSwitchValue(expectation: Bool, timeout: TimeInterval) -> Bool` Waits for a switch to change value (can be useful if you navigate away immediately after tapping it)  
+`waitForValueToNotContain(this: String, timeout: TimeInterval)` Waits for a value to no longer contain a string  
 
 ### XCUIElementQuery Extensions
 
@@ -81,7 +81,7 @@ Note: `firstMatch` is provided by XCTest
 
 ## Author
 
-Mike Collins, mike@iammike.org  
+Mike(https://github.com/iammike)  
 Others - Not all original code, but generally modified and improved
 
 ## License
