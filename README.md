@@ -61,6 +61,9 @@ A set of TimeIntervals to use when waiting.
 
 Usage: `someLoadingData.waitForExistence(timeout: Waits.long.rawValue)`
 
+### XCTestCase Extensions
+`takeScreenshot(named: String)` Takes a screenshot of the present screen and attaches it to the test case result
+
 ### XCUIElement Extensions
 
 `forceTap()` Ignores the restrictions tap() is bound by and taps the element anyway  
