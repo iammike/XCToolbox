@@ -74,23 +74,23 @@ extension XCUIElement {
 	}
 	
 	// Waits for a switch to change value - toggling switches can be flaky otherwise
-	public func waitForSwitchValue(_ expectation: Bool, timeout: Int = 3) -> Bool {
-		let value = (self.value as! NSString).boolValue
-		var timerTicks = 0
-		Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (timer) in timerTicks += 1
-			if value == expectation || timerTicks == timeout {
-				timer.invalidate()
-			}
-		}
-		return value == expectation
-	}
-	
+    public func waitForSwitchValue(_ expectation: Bool, timeout: TimeInterval = Waits.short.rawValue) -> Bool {
+        let value = (self.value as! NSString).boolValue
+        var timerTicks: Double = 0.0
+        Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (timer) in timerTicks += 1.0
+            if value == expectation || timerTicks >= timeout {
+                timer.invalidate()
+            }
+        }
+        return value == expectation
+    }
+
 	// Waits for a value to no longer contain a string
-	public func waitForValueToNotContain(this containing: String, timeout: Int = 20) {
+    public func waitForValueToNotContain(this containing: String, timeout: TimeInterval = Waits.extraLong.rawValue) {
 		let value = self.value as! String
-		var timerTicks = 0
-		Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (timer) in timerTicks += 1
-			if (!value.contains(containing)) || (timerTicks == timeout) {
+        var timerTicks: Double = 0.0
+        Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (timer) in timerTicks += 1.0
+			if (!value.contains(containing)) || timerTicks >= timeout {
 				timer.invalidate()
 			}
 		}
